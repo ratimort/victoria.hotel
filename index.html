@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>hotel</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/Montserrat/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="libs/animate/animate.min.css">
+	<link rel='stylesheet' media='screen and (max-width: 768px)' href='media_queries.css' />
+	<link rel='stylesheet' media='screen and (max-width: 600px)' href='media_queries.css' />
+	<link rel='stylesheet' media='screen and (max-width: 480px)' href='media_queries.css' />
+	<link rel='stylesheet' media='screen and (max-width: 320px)' href='media_queries.css' />
+</head>
+<style>
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: invert(80%);
+}
+</style>
+<div class="loader" id="loader">
+	<img src="img/logotip2work.png">
+</div>
+<body class="body1" id="body" onload="myFunction()">
+
+<!-- FADE MENU -->
+
+<div class="fade-menu">
+	<div class="top">
+		<div class="container">
+			<div class="logo col-md-3 col-sm-6">
+				<img src="img/logotip2work.png">
+			</div>
+			<div class="button col-md-9 col-sm-6" align="right">
+				<h3><a href="#numbers" class="prevent">наши номера</a></h3>
+				<h3><a href="#advantages" class="prevent">преимущества</a></h3>
+				<h3><a href="#stage" class="prevent">схема работ</a></h3>
+				<h3><a href="#reviews" class="prevent">отзывы</a></h3>
+				<h3><a href="#map" class="prevent">забронировать</a></h3>
+				<div class="click-on">
+					<div class="line-1-1"></div>
+					<div class="line-2-1"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bottom-menu">
+	<div class="container">
+		<div class="col-md-6 col-sm-6 hidden-xs">
+			<h3 style="text-align: left;"><a href="https://yandex.ru/maps/20718/ishimbay/house/bulvarnaya_ulitsa_80/YU8YdgJhTUMOQFtpfXh0c3pgYw==/?ll=56.051469%2C53.452637&utm_source=main_stripe_big&z=16.39" target="_blank">г. Ишимбай, Бульварная 80</a></h3>
+		</div>
+		<div class="col-md-6 col-sm-6 instagram" align="right">
+			<a href="https://www.instagram.com/victoria.hotel_/" target="_blank"><h3 class="fa fa-instagram"></h3></a>
+		</div>
+	</div>
+</div>
+<div class="black"></div>
+<div class="menu-sm">
+	<div class="click-on-1">
+		<div class="line-1-1"></div>
+		<div class="line-2-1"></div>
+	</div>
+	<div class="text">
+		<h3><a href="#numbers" class="prevent">наши номера</a></h3>
+		<h3><a href="#advantages" class="prevent">преимущества</a></h3>
+		<h3><a href="#stage" class="prevent">схема работ</a></h3>
+		<h3><a href="#reviews" class="prevent">отзывы</a></h3>
+		<h3><a href="#map" class="prevent">забронировать</a></h3>
+	</div>
+	<div class="text-2">
+		<h3 style="text-align: left;"><a href="https://yandex.ru/maps/20718/ishimbay/house/bulvarnaya_ulitsa_80/YU8YdgJhTUMOQFtpfXh0c3pgYw==/?ll=56.051469%2C53.452637&utm_source=main_stripe_big&z=16.39" target="_blank">г. Ишимбай, Бульварная 80</a></h3>
+		<a href="https://www.instagram.com/victoria.hotel_/" target="_blank"><h3 class="fa fa-instagram"></h3></a>
+	</div>
+</div>
+<!-- FADE MENU -->
+
+<div class="all" id="all">
+<!-- ГОЛОВА -->
+	<header class="head" data-enllax-ratio="0.5">
+		<div class="row">
+			<div class="container">
+			<div class="top-menu col-md-12 col-sm-12 col-xs-12">
+				<div class="logo col-md-3 col-sm-3 col-xs-4">
+					<img src="img/logotip2work.png">
+				</div>
+				<div class="phone col-md-9 col-sm-9 col-xs-8" align="right">
+					<h3 style="text-align: left;"><a href="https://yandex.ru/maps/20718/ishimbay/house/bulvarnaya_ulitsa_80/YU8YdgJhTUMOQFtpfXh0c3pgYw==/?ll=56.051469%2C53.452637&utm_source=main_stripe_big&z=16.39" target="_blank">г. Ишимбай, Бульварная 80</a></h3>
+					<h3><a href="tel:+7(917)4069388">+7 (917) 406 93 88</a></h3>
+					<h3><a href="tel:+7(347)9463688">+7 (347) 946 36 88</a></h3>
+				</div>
+			</div>
+			<div class="col-md-1 col-sm-1 hidden-xs"></div>
+			<div class="info col-md-10 col-sm-10 col-xs-12">
+				<h1>Европейский комфорт по <br>приемлемым ценам</h1>
+				<h3>Гостиница «Виктория» приглашает гостей города Ишимбай!<br>К вашим услугам комфортабельные номера в центре города. Мы можем Вам предложить номера обычного типа, повышенной комфортности, а также класса люкс.</h3>
+				<div class="contact col-md-12 col-sm-12 col-xs-12">
+					<form id="form">
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="Отель Виктория">
+						<input type="hidden" name="admin_email" value="ratimort@yandex.ru">
+						<input type="hidden" name="form_subject" value="заявка с сайта">
+						<!-- END Hidden Required Fields -->
+
+						<h2>ЗАБРОНИРУЙТЕ НОМЕР ПРЯМО СЕЙЧАС</h2>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<input type="text" name="Name" placeholder="имя" required>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<input type="text" name="Phone" placeholder="телефон">
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<input type="text" name="E-mail" placeholder="E-mail" required>
+						</div>
+						<div class="button col-md-12 col-sm-12 col-xs-12" align="center">
+							<div class="col-md-4 col-sm-4 hidden-xs"></div>
+							<div class="col-md-4 col-sm-4"><button>забронировать</button></div>
+							<div class="col-md-4 col-sm-4 hidden-xs"></div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-1 col-sm-1 hidden-xs"></div>
+			</div>
+		</div>
+	</header>
+	<!-- ГОЛОВА -->
+
+
+	<!-- НАШИ НОМЕРА -->
+	<section class="numbers" id="numbers">
+		<div class="container">
+			<h1>наши номера</h1>
+			<div class="col-md-4 col-sm-4 col-xs-4 item1 wow fadeInLeft">
+				<div class="img" style="background-image: url('./img/эконом/1.webp');"></div>
+				<div class="text">
+					<h2>эконом</h2>
+					<p>Отличный вариант, если вы в поисках комфортного номера, но у вас ограниченный бюджет</p>
+				</div>
+				<div class="button">
+					<div class="price"><h3>1 место - 1 500 руб.</h3></div>
+					<div class="price"><h3>Цена за номер: 3 000 руб.</h3></div>
+					<button class="economy">забронировать</button>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4 item1 wow fadeInLeft">
+				<div class="img" style="background-image: url('./img/стандарт/1.webp');"></div>
+				<div class="text">
+					<h2>СТАНДАРТ</h2>
+					<p>Обстановка которого создаёт атмосферу уюта и комфорта. В номере вы можете найти все необходимое для проживания</p>
+				</div>
+				<div class="button">
+					<div class="price"><h3>Один гость - 2 000 руб.</h3></div>
+					<div class="price"><h3>Два гостя - 2 500 руб.</h3></div>
+					<button class="standard">забронировать</button>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4 item1 wow fadeInLeft">
+				<div class="img" style="background-image: url('./img/люкс/1.webp');"></div>
+				<div class="text">
+					<h2>люкс</h2>
+					<p>Уютный, просторный номер с современным интерьером оснащенным всем необходимым</p>
+				</div>
+				<div class="button">
+					<div class="price"><h3>5 000 р./сутк</h3></div>
+					<button class="luxury">забронировать</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<div class="form-numbers1 economy-1" align="center">
+		<div class="click-on-11-1">
+			<div class="line-1-1"></div>
+			<div class="line-2-1"></div>
+		</div>
+		<div class="all-form-1"></div>
+		<div class="container">
+			<div class="col-md-12 col-sm-12 col-xs-12 info">
+				<div class="col-md-1 col-sm-1 hidden-sm"></div>
+				<div class="col-md-6 col-sm-7 col-xs-12 text">
+					<form id="form">
+					<h2>Забронировать номер «Эконом»</h2>
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Отель Виктория">
+					<input type="hidden" name="admin_email" value="ratimort@yandex.ru">
+					<input type="hidden" name="form_subject" value="эконом">
+					<!-- END Hidden Required Fields -->
+					<div class="contact">
+						<input type="text" name="Name" placeholder="имя" required>
+						<input type="text" name="Phone" placeholder="телефон">
+						<input type="text" name="E-mail" placeholder="E-mail" required>
+						<button>забронировать</button>
+					</div>
+					</form>
+					<ul>
+						<li>Или позвоните нам</li>
+						<li><a href="#+73479463688">+7 347 946 36 88</a></li>
+						<li><a href="#+79174069388">+7 917 406 93 88</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-8 image" align="left">
+					<div class="owl-carousel owl-theme owl1" id="owl">
+						<div class="item">
+							<a href="/img/эконом/1.webp" target="_blank"><div class="img" style="background-image: url('./img/эконом/1.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/эконом/2.webp" target="_blank"><div class="img" style="background-image: url('./img/эконом/2.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/эконом/3.webp" target="_blank"><div class="img" style="background-image: url('./img/эконом/3.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/эконом/4.webp" target="_blank"><div class="img" style="background-image: url('./img/эконом/4.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/эконом/5.webp" target="_blank"><div class="img" style="background-image: url('./img/эконом/5.webp');"></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 hidden-sm"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="form-numbers1 standard-1" align="center">
+		<div class="click-on-11-1">
+			<div class="line-1-1"></div>
+			<div class="line-2-1"></div>
+		</div>
+		<div class="all-form-1"></div>
+		<div class="container">
+			<div class="col-md-12 col-sm-12 col-xs-12 info">
+				<div class="col-md-1 col-sm-1 hidden-sm"></div>
+				<div class="col-md-6 col-sm-7 col-xs-12 text">
+					<h2>Забронировать номер «Стандарт»</h2>
+					<div class="contact">
+						<form id="form">
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="Отель Виктория">
+						<input type="hidden" name="admin_email" value="ratimort@yandex.ru">
+						<input type="hidden" name="form_subject" value="стандарт">
+						<!-- END Hidden Required Fields -->
+						<div class="contact">
+							<input type="text" name="Name" placeholder="имя" required>
+							<input type="text" name="Phone" placeholder="телефон">
+							<input type="text" name="E-mail" placeholder="E-mail" required>
+							<button>забронировать</button>
+						</div>
+						</form>
+					</div>
+					<ul>
+						<li>Или позвоните нам</li>
+						<li><a href="#+73479463688">+7 347 946 36 88</a></li>
+						<li><a href="#+79174069388">+7 917 406 93 88</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-8 image" align="left">
+					<div class="owl-carousel owl-theme owl1" id="owl">
+						<div class="item">
+							<a href="/img/стандарт/1.webp" target="_blank"><div class="img" style="background-image: url('./img/стандарт/1.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/стандарт/2.webp" target="_blank"><div class="img" style="background-image: url('./img/стандарт/2.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/стандарт/3.webp" target="_blank"><div class="img" style="background-image: url('./img/стандарт/3.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/стандарт/4.webp" target="_blank"><div class="img" style="background-image: url('./img/стандарт/4.webp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/стандарт/5.webp" target="_blank"><div class="img" style="background-image: url('./img/стандарт/5.webp');"></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 hidden-sm"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="form-numbers1 luxury-1" align="center">
+		<div class="click-on-11-1">
+			<div class="line-1-1"></div>
+			<div class="line-2-1"></div>
+		</div>
+		<div class="all-form-1"></div>
+		<div class="container">
+			<div class="col-md-12 col-sm-12 col-xs-12 info">
+				<div class="col-md-1 col-sm-1 hidden-sm"></div>
+				<div class="col-md-6 col-sm-7 col-xs-12 text">
+					<h2>Забронировать номер «Люкс»</h2>
+					<div class="contact">
+					<form id="form">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Отель Виктория">
+					<input type="hidden" name="admin_email" value="ratimort@yandex.ru">
+					<input type="hidden" name="form_subject" value="люкс">
+					<!-- END Hidden Required Fields -->
+					<div class="contact">
+						<input type="text" name="Name" placeholder="имя" required>
+						<input type="text" name="Phone" placeholder="телефон">
+						<input type="text" name="E-mail" placeholder="E-mail" required>
+						<button>забронировать</button>
+					</div>
+					</form>
+					</div>
+					<ul>
+						<li>Или позвоните нам</li>
+						<li><a href="#+73479463688">+7 347 946 36 88</a></li>
+						<li><a href="#+79174069388">+7 917 406 93 88</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-8 image" align="left">
+					<div class="owl-carousel owl-theme owl1" id="owl">
+						<div class="item">
+							<a href="/img/люкс/1.webpwebp" target="_blank"><div class="img" style="background-image: url('./img/люкс/1.webpwebp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/люкс/2.webpwebp" target="_blank"><div class="img" style="background-image: url('./img/люкс/2.webpwebp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/люкс/3.webpwebp" target="_blank"><div class="img" style="background-image: url('./img/люкс/3.webpwebp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/люкс/4.webpwebp" target="_blank"><div class="img" style="background-image: url('./img/люкс/4.webpwebp');"></div></a>
+						</div>
+						<div class="item">
+							<a href="/img/люкс/5.webpwebp" target="_blank"><div class="img" style="background-image: url('./img/люкс/5.webpwebp');"></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 hidden-sm"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="form-numbers" align="center">
+		<div class="click-on-11">
+			<div class="line-1-1"></div>
+			<div class="line-2-1"></div>
+		</div>
+		<div class="all-form"></div>
+		<div class="item">
+			<div class="contact">
+			<form id="form">
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="Отель Виктория">
+			<input type="hidden" name="admin_email" value="ratimort@yandex.ru">
+			<input type="hidden" name="form_subject" value="заявка с сайта">
+			<!-- END Hidden Required Fields -->
+			<h2>ЗАБРОНИРУЙТЕ НОМЕР ПРЯМО СЕЙЧАС</h2>
+			<input type="text" name="Name" placeholder="имя" required>
+			<input type="text" name="Phone" placeholder="телефон">
+			<input type="text" name="E-mail" placeholder="E-mail" required>
+			<button>забронировать</button>
+			</form>
+			</div>
+		</div>
+	</div>
+	<!-- НАШИ НОМЕРА -->
+
+	<!-- ПРЕИМУЩЕСТВА -->
+
+	<section class="advantages" id="advantages">
+		<div class="row">
+			<div class="container">
+				<h1>НАШИ ПРЕИМУЩЕСТВА</h1>
+				<div class="col-md-1 col-sm-1 col-xs-1"></div>
+				<div class="item col-md-10 col-sm-10 col-xs-10">
+					<div class="col-md-4 col-sm-4 col-xs-6 info wow fadeInUp" align="center">
+						<img src="img/bed.png">
+						<h3>Семейный номер</h3>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 info wow fadeInUp" align="center">
+						<img src="img/hair-dryer.png">
+						<h3>Полный комплект бытовой техники</h3>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 info wow fadeInUp" align="center">
+						<img src="img/baby-boy.png">
+						<h3>Возможно размещение с детьми</h3>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 info wow fadeInUp" align="center">
+						<img src="img/wifi.png">
+						<h3>Бесплатный Wi-Fi</h3>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 info wow fadeInUp" align="center" style="height: 260px;">
+						<img src="img/fork.png">
+						<h3>Насладиться изысканными блюдами в <a href="https://www.instagram.com/laboratoria_myasa/" style="color: #BB7A44" target="_blank">ресторане, который расположен в нашей гостинице</a></h3>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 info wow fadeInUp" align="center">
+						<img src="img/maid.png">
+						<h3>Ежедневная уборка</h3>
+					</div>
+				</div>
+				<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ПРЕИМУЩЕСТВА -->
+
+	<!-- ГАЛЕРЕЯ -->
+
+	<section class="gallery">
+		<div class="container">
+			<h1>галерея</h1>
+			<div class="col-md-4"></div>
+			<div class="owl-carousel owl-theme owl1" id="owl" align="center">
+				<div class="item col-md-4" align="center">
+					<a href="img/DSC04278.webp" target="_blank"><img src="img/DSC04278.webp"></a>
+				</div>
+				<div class="item col-md-4" align="center">
+					<source srcset="/images/img/DSC04280.webp" />
+					<a href="img/DSC04280.webp" target="_blank"><img src="img/DSC04280.webp"></a>
+				</div>
+				<div class="item col-md-4" align="center">
+					<a href="img/люкс/5.webp" target="_blank"><img src="img/люкс/5.webp"></a>
+				</div>
+				<div class="item col-md-4" align="center">
+					<a href="img/стандарт/1.webp" target="_blank"><img src="img/стандарт/1.webp"></a>
+				</div>
+				<div class="item col-md-4" align="center">
+					<a href="img/эконом/1.webp" target="_blank"><img src="img/эконом/1.webp"></a>
+				</div>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</section>
+
+	<!-- ГАЛЕРЕЯ -->
+
+	<!-- ЭТАПЫ -->
+
+	<section class="stage" id="stage">
+		<div class="container">
+			<h1>КАК МЫ РАБОТАЕМ?</h1>
+			<div class="col-md-12 info" align="center">
+				<div class="col-md-3 col-sm-6 col-xs-12 item wow fadeInLeft">
+					<div class="radius">
+						<img src="img/phone.png">
+						<p>Вы оставляете заявку на сайте или связываетесь с нами по телефону</p>
+					</div>
+					<div class="radius2">
+						<h1>1</h1>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 item wow fadeInUp">
+					<div class="radius">
+						<img src="img/support.png">
+						<p>Наш менеджер свяжется с вами для уточнений деталей</p>
+					</div>
+					<div class="radius2">
+						<h1>2</h1>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 item wow fadeInUp">
+					<div class="radius">
+						<img src="img/hand-shake.png">
+						<p>Мы заключаем с вами договор на основе которого вы заселяетесь</p>
+					</div>
+					<div class="radius2">
+						<h1>3</h1>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 item wow fadeInRight">
+					<div class="radius">
+						<img src="img/deal.png">
+						<p>Вы заселяетесь в свой номер, после чего оплачиваете всю сумму</p>
+					</div>
+					<div class="radius2">
+						<h1>4</h1>
+					</div>
+				</div>
+				<button class="fade-form">ОСТАВИТЬ ЗАЯВКУ</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- ЭТАПЫ -->
+
+
+	<!-- ОТЗЫВЫ -->
+
+	<div class="reviews" id="reviews">
+		<div class="container">
+			<h1>отзывы</h1>
+			<div class="col-md-1"></div>	
+			<div class="col-md-10">
+				<div class="owl-carousel owl-theme owl1" id="owl" align="center">
+					<div class="item" align="center">
+						<div class="img" style="background-image: url('./img/man-2.jpg');"></div>	
+						<h3>Екатерина</h3>
+						<p>Отель новый,открылся в начале ноября 2020 года.Все чистенько,аккуратно,с красивым интерьером.Доброжелательный и отзывчивый персонал.В номерах новая мебель,кровать с удобным матрасом,приятной подушкой и белоснежным постельным бельём.В номерах имеются махровые полотенца,шампунь,гель для душа,мыло,тапочки.В номерах люкс имеются махровые халаты,холодильник и другие дополнительные принадлежности.В каждом номере установлен кондиционер и телевизор,хотелось бы ещё в каждый номер любой категории, холодильник .На фото представлен номер Люкс. Отель очень понравился,спасибо за гостеприимство персоналу отеля и городу Ишимбай!!!</p>
+					</div>
+				</div>
+			</div>	
+			<div class="col-md-1"></div>	
+		</div>
+	</div>
+
+	<!-- ОТЗЫВЫ -->
+
+
+
+
+
+	<!-- КАРТА -->
+
+	<section class="map" id="map">
+		<div class="container">
+			<a href="https://yandex.ru/maps/20718/ishimbay/house/bulvarnaya_ulitsa_80/YU8YdgJhTUMOQFtpfXh0c3pgYw==/?ll=56.051469%2C53.452637&utm_source=main_stripe_big&z=16.39" target="_blank"><div class="item1"></div></a>
+			<div class="item">
+				<div class="contact">
+					<form id="form">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Отель Виктория">
+					<input type="hidden" name="admin_email" value="ratimort@yandex.ru">
+					<input type="hidden" name="form_subject" value="заявка с сайта">
+					<!-- END Hidden Required Fields -->
+					<h2>ЗАБРОНИРУЙТЕ НОМЕР ПРЯМО СЕЙЧАС</h2>
+					<input type="text" name="Name" placeholder="имя" required>
+					<input type="text" name="Phone" placeholder="телефон">
+					<input type="text" name="E-mail" placeholder="E-mail" required>
+					<button>забронировать</button>
+					</form>
+				</div>
+			</div>
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad695e9188fb137052a520be8b8ce452a95ad44d13f7f5286f83990c46a10ce54&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+		</div>
+	</section>
+<!-- КАРТА -->
+
+	<footer>
+		<div class="container">
+			<div class="top-menu col-md-12 col-sm-12 col-xs-12">
+				<div class="logo col-md-3 col-sm-3 col-xs-4">
+					<img src="img/logotip.png">
+				</div>
+				<div class="phone col-md-9 col-sm-9 col-xs-8" align="right">
+					<h3 style="text-align: left;"><a href="https://yandex.ru/maps/20718/ishimbay/house/bulvarnaya_ulitsa_80/YU8YdgJhTUMOQFtpfXh0c3pgYw==/?ll=56.051469%2C53.452637&utm_source=main_stripe_big&z=16.39" target="_blank">г. Ишимбай, Бульварная 80</a></h3>
+					<h3><a href="tel:+7(917)4069388">+7 (917) 406 93 88</a></h3>
+					<h3><a href="tel:+7(347)9463688">+7 (347) 946 36 88</a></h3>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+<script src="libs/animate/wow.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script src="js/common.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
